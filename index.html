@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELADERÍA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/7792c1e993.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-success p-2 bg-opacity-10">
+    <header>
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid d-flex flex-column">
+                <div class="d-flex justify-content-center aligns-items-baseline">
+                        <a class="navbar-brand cursor" href="#"">
+                            <img src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/64/000000/external-ice-cream-store-itim2101-lineal-color-itim2101.png" alt="" width="40" height="45">
+                        </a>
+                        <a class="navbar-brand fw-bold fs-1 text-success cursor" href="#">Heladería</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link border-bottom border-warning m-2 text-success fw-bold hover active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-bottom border-warning m-2 text-success fw-bold hover" aria-current="page" href="#sabores">Sabores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-bottom border-warning m-2 text-success fw-bold hover" aria-current="page" href="#formulario-compra">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-bottom border-warning m-2 text-success fw-bold hover" aria-current="page" href="#ubicacion">Ubicación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="slider">
+
+            <!-- Carrousel -->
+        
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./image/imginicio1.jpeg" class="d-block vw-100 img-thumbnail" alt="..." style="height: 50%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/imginicio2.jpeg" class="d-block vw-100 img-thumbnail" alt="..." style="height: 50%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/imginicio3.jpeg" class="d-block vw-100 img-thumbnail" alt="..." style="height: 50%;">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="sabores">
+            <p class="text-center fs-1 mt-2"><i class="fas fa-ice-cream"></i>  Sabores</p>
+            <!-- Chocolates -->
+            
+            <div id="chocolates">
+                <div class="container-fluid mb-5 w-auto d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/chocolate.jpg" alt="Logo Chocolates" class="img-thumbnail" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <p class="text-center fs-4">Chocolates</p>
+                    <div class="d-flex justify-content-center flex-wrap w-auto gap-3">
+                        <!-- Helado Sabor Chocolate -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CHOCOLATE</h5>
+                                        <p class="text-start fw-light">Con los mejores y más naturales cacaos de Brasil y Sudráfica.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Chocolate Vegano -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CHOCOLATE VEGANO</h5>
+                                        <p class="text-start fw-light">Helado a base de un sorbete de cacao y azúcar mascabo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Chocolate con Almendras -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CHOCOLATE CON ALMENDRAS</h5>
+                                        <p class="text-start fw-light">Base de helado de chocolate y la mejor selección de almendras tostadas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Chocolate Blanco -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CHOCOLATE BLANCO</h5>
+                                        <p class="text-start fw-light">Crema de chocolate blanco con trozos de chocolate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Chocolate Amargo -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CHOCOLATE AMARGO</h5>
+                                        <p class="text-start fw-light">Cacaos de primer nivel y chocolate amargo reemplazando con delicadeza a la manteca de cacao.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Chocolate Suizo -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CHOCOLATE SUIZO</h5>
+                                        <p class="text-start fw-light">Helado de chocolate, ron y chocolate granizado.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce de Leche -->
+            
+            <div id="dulce-leche">
+                <div class="container-fluid mt-5 mb-5 w-auto d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/dulce-de-leche.jpg" alt="Logo Dulce de Leche" class="img-thumbnail" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <p class="text-center fs-4">Dulce de Leche</p>
+                    <div class="d-flex justify-content-center flex-wrap w-auto gap-3">
+                        <!-- Helado Sabor Dulce de Leche -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">DULCE DE LECHE</h5>
+                                        <p class="text-start fw-light">Blend de dulce de leche hecho helado.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Dulce de Leche con Nuez -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">DULCE DE LECHE CON NUEZ</h5>
+                                        <p class="text-start fw-light">Helado de dulce de leche y nueces.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Dulce de Leche Tentación -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">DULCE DE LECHE TENTACIÓN</h5>
+                                        <p class="text-start fw-light">Una base clásica más dulce de leche repostero y merenguitos.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Dulce de Leche Granizado -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">DULCE DE LECHE GRANIZADO</h5>
+                                        <p class="text-start fw-light">Base de helado de dulce de leche con un granizado de trocitos de chocolate amargo.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Dulce de Leche 3 Sensaciones -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">DULCE DE LECHE 3 SENSACIONES</h5>
+                                        <p class="text-start fw-light">Helado de dulce de leche con brownies y granizado de chocolate con crema de avellanas frescas.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cremas -->
+            
+            <div id="cremas">
+                <div class="container-fluid mt-5 mb-5 w-auto d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/cremas.jpg" alt="Logo Cremas" class="img-thumbnail" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <p class="text-center fs-4">Cremas</p>
+                    <div class="d-flex justify-content-center flex-wrap w-auto gap-3">
+                        <!-- Helado Sabor Crema Vainilla -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CREMA VAINILLA</h5>
+                                        <p class="text-start fw-light">Verdadera chaucha de vainilla libre de esencias para un helado como el que hacía la nonna.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Crema Rusa -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CREMA RUSA</h5>
+                                        <p class="text-start fw-light">Crema de nuez, vino oporto y nueces.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Crema del Cielo -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CREMA DEL CIELO</h5>
+                                        <p class="text-start fw-light">Crema americana con colorante.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Granizado de Chocolate -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">GRANIZADO DE CHOCOLATE</h5>
+                                        <p class="text-start fw-light">Exquisita base de helado con crema americana y trocitos de chocolate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Crema de Almendras -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CREMA DE ALMENDRAS</h5>
+                                        <p class="text-start fw-light">Crema helada de almendras más la mejor selección de almendras tostadas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Frutilla a la Crema -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">FRUTILLA A LA CREMA</h5>
+                                        <p class="text-start fw-light">Crema elaborada con frutillas naturales y trozos de frutillas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Cereza a la Crema -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">CEREZA A LA CREMA</h5>
+                                        <p class="text-start fw-light">Crema de cerezas y cerezas en almíbar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Frutales -->
+            
+            <div id="frutales">
+                <div class="container-fluid mt-5 mb-5 w-auto d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/frutales-no-libres.jpg" alt="Logo Frutales No Libres" class="img-thumbnail" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <p class="text-center fs-4">Frutales</p>
+                    <div class="d-flex justify-content-center flex-wrap w-auto gap-3">
+                        <!-- Helado Sabor Mousse de Limón -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">MOUSSE DE LIMÓN</h5>
+                                        <p class="text-start fw-light">Crema de helado de limón, sometida a un batido específico, logrando una suave crema aireada.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Banana -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">BANANA</h5>
+                                        <p class="text-start fw-light">Crema de bananas ecuatorianas seleccionadas.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Banadul -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">BANADUL</h5>
+                                        <p class="text-start fw-light">A una base de helado de banana, agregamos dulce de leche natural.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Frutales Libres de Lactosa -->
+            
+            <div id="frutales-libres-lactosa">
+                <div class="container-fluid mt-5 mb-5 w-auto d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/frutales-libres.jpg" alt="Logo Frutales Libres" class="img-thumbnail" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <p class="text-center fs-4">Frutales Libres de Lactosa</p>
+                    <div class="d-flex justify-content-center flex-wrap w-auto gap-3">
+                        <!-- Helado Sabor Fruttato -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">FRUTTATO</h5>
+                                        <p class="text-start fw-light">Frutas de estación hechas helado. 0% azúcar (sacarosa agregada).</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Limón -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">LIMÓN</h5>
+                                        <p class="text-start fw-light">Elaborado a base de jugo natural de limón recién exprimido.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Limón Granizado -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">LIMÓN GRANIZADO</h5>
+                                        <p class="text-start fw-light">Base de helado de limón con trocitos de chocolate.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Frutilla -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">FRUTILLA</h5>
+                                        <p class="text-start fw-light">Elaborado a base de las mejores y más sabrosas frutillas naturales.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Ananá -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">ANANÁ</h5>
+                                        <p class="text-start fw-light">Hecho con ananás naturales del Brasil.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Frambuesa -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">FRAMBUESA</h5>
+                                        <p class="text-start fw-light">Elaborado con una selección de las mejores frmabuesas patagónicas.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Durazno -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">DURAZNO</h5>
+                                        <p class="text-start fw-light">Elaborado a base de los mejores duraznos naturales seleccionados.</p>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Especiales -->
+            
+            <div id="especiales">
+                <div class="container-fluid mt-5 mb-5 w-auto d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/especiales.jpg" alt="Logo Especiales" class="img-thumbnail" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <p class="text-center fs-4">Especiales</p>
+                    <div class="d-flex justify-content-center flex-wrap w-auto gap-3">
+                        <!-- Helado Sabor Variegato de Frutas Silvestres -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">VARIEGATO DE FRUTAS SILVESTRES</h5>
+                                        <p class="text-start fw-light">Crema americana más una salsa elaborada con frutos rojos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Menta Granizada -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">MENTA GRANIZADA</h5>
+                                        <p class="text-start fw-light">Crema con base de menta y trocitos de chocolate amargo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Mantecol -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">MANTECOL</h5>
+                                        <p class="text-start fw-light">Crema de pasta de maní, con agregados de Mantecol.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Marroc -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">MARROC</h5>
+                                        <p class="text-start fw-light">Crema de pasta de maní, crema de chocolate y trocitos de bombones Marroc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Tiramisú -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">TIRAMISÚ</h5>
+                                        <p class="text-start fw-light">Crema a base de mascarpone, Sambayón, café, cacao y bizcochuelo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Mascarpone -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">MASCARPONE</h5>
+                                        <p class="text-start fw-light">Elaborado con queso mascarpone artesanal y sembrado con amarena italiana.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Flan al Caramelo -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">FLAN AL CARAMELO</h5>
+                                        <p class="text-start fw-light">Flan helado con un crocante de caramelo disuelto en la crema, como el flan hecho en casa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Coco con Dulce de Leche -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">COCO CON DULCE DE LECHE</h5>
+                                        <p class="text-start fw-light">Crema a base de coco natural y coco rallado, marmolado con dulce de leche familiar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Tramontana -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">TRAMONTANA</h5>
+                                        <p class="text-start fw-light">Helado de crema merengada, marmolado con dulce de leche, más cereales.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Helado Sabor Cookies -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">COOKIES</h5>
+                                        <p class="text-start fw-light">Helado de crema americana, dulce de leche, marmolado con dulce de leche familiar y galletitas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Postres -->
+            
+            <div id="postres">
+                <div class="container-fluid mt-5 mb-5 w-auto d-flex flex-column justify-content-center align-items-center">
+                    <img src="./image/postres.jpg" alt="Logo Postres" class="img-thumbnail" style="width: 80px; height: 80px; border-radius: 50%;">
+                    <p class="text-center fs-4">Postres</p>
+                    <div class="d-flex justify-content-center flex-wrap w-auto gap-3">
+                        <!-- Postre: Bombón Escocés -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">BOMBÓN ESCOCÉS</h5>
+                                        <p class="text-start fw-light">Postre de Bombón Escocés por 6 Unidades.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Postre: Almendrado -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">ALMENDRADO</h5>
+                                        <p class="text-start fw-light">Postre Almendrado por 2000 cm3 y 1400 cm3.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Postre: Tiramisú -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">TIRAMISÚ</h5>
+                                        <p class="text-start fw-light">Postre Tiramisú por 2000 cm3 y 1400 cm3.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Postre: Tricolor -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="card bg-light" style="width: 17.5rem; height: 8rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fs-6 fw-light">TRICOLOR</h5>
+                                        <p class="text-start fw-light">Postre Tricolor por 2000 cm3 y 1400 cm3.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="formulario-compra">
+            <div class="container-fluid d-flex justify-content-center flex-column mb-5 w-auto flex-wrap">
+                <p class="text-center fs-1"><i class="fas fa-clipboard-list"></i>  Pedidos</p>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item bg-light">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Realizar un Pedido</button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <form action="" class="row container-fluid d-flex justify-content-center w-auto">
+                    
+                                    <!-- Nombre y Apellido -->
+            
+                                    <div class="col-sm-12 mb-2">
+                                        <label for="inputNombreApellido" class="form-label">NOMBRE y APELLIDO:</label>
+                                        <input type="text" class="form-control" id="inputNombreApellido" placeholder="Nombre y Apellido" required>
+                                    </div>
+                                
+                                    <!-- Teléfono -->
+                                
+                                    <div class="col-sm-6 mb-2">
+                                        <label for="inputTelefono" class="form-label">TELÉFONO:</label>
+                                        <input type="number" class="form-control" id="inputTelefono" placeholder="+123456789" required>
+                                    </div>
+                                
+                                    <!-- Calle -->
+                                
+                                    <div class="col-sm-6 mb-2">
+                                        <label for="inputCalle" class="form-label">CALLE:</label>
+                                        <input type="text" class="form-control" id="inputCalle" placeholder="Av. Costanera" required>
+                                    </div>
+                                    
+                                    <!-- Altura -->
+            
+                                    <div class="col-sm-6 mb-2">
+                                        <label for="inputAltura" class="form-label">ALTURA:</label>
+                                        <input type="number" class="form-control" id="inputAltura" placeholder="1234" required>
+                                    </div>
+                                    
+                                    <!-- Cantidad -->
+                                    
+                                    <div class="col-sm-6 mb-2">
+                                        <label for="inputCantidad" class="form-label">CANTIDAD:</label>
+                                        <select class="form-select" id="inputCantidad" required>
+                                            <option selected disabled value="">Elegir...</option>
+                                            <option>1/4 kg</option>
+                                            <option>1/2 kg</option>
+                                            <option>1 kg</option>
+                                            <option>1 1/2 kg</option>
+                                            <option>2 kg</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <!-- Sabores -->
+                                    
+                                    <div class="col-sm-6 mb-2">
+                                        <label for="inputSabores" class="form-label">SABORES:</label>
+                                        <select class="form-select" id="inputSabores" required>
+                                            <option option selected disabled value="">Elegir...</option>
+                                            <option disabled value="">---CHOCOLATES---</option>
+                                            <option value="">CHOCOLATE</option>
+                                            <option value="">CHOCOLATE VEGANO</option>
+                                            <option value="">CHOCOLATE CON ALMENDRAS</option>
+                                            <option value="">CHOCOLATE BLANCO</option>
+                                            <option value="">CHOCOLATE AMARGO</option>
+                                            <option value="">CHOCOLATE SUIZO</option>
+                                            <option disabled value="">---DULCE DE LECHE---</option>
+                                            <option value="">DULCE DE LECHE</option>
+                                            <option value="">DULCE DE LECHE CON NUEZ</option>
+                                            <option value="">DULCE DE LECHE TENTACIÓN</option>
+                                            <option value="">DULCE DE LECHE GRANIZADO</option>
+                                            <option value="">DULCE DE LECHE 3 TENTACIONES</option>
+                                            <option disabled value="">---CREMAS---</option>
+                                            <option value="">CREMA VAINILLA</option>
+                                            <option value="">CREMA RUSA</option>
+                                            <option value="">CREMA DEL CIELO</option>
+                                            <option value="">GRANIZADO DE CHOCOLATE</option>
+                                            <option value="">CREMA DE ALMENDRAS</option>
+                                            <option value="">FRUTILLA A LA CREMA</option>
+                                            <option value="">CEREZA A LA CREMA</option>
+                                            <option disabled value="">---FRUTALES---</option>
+                                            <option value="">MOUSSE DE LIMÓN</option>
+                                            <option value="">BANANA</option>
+                                            <option value="">BANADUL</option>
+                                            <option disabled value="">---FRUTALES LIBRES DE LACTOSA---</option>
+                                            <option value="">FRUTTATO</option>
+                                            <option value="">LIMÓN</option>
+                                            <option value="">LIMÓN GRANIZADO</option>
+                                            <option value="">FRUTILLA</option>
+                                            <option value="">ANANÁ</option>
+                                            <option value="">FRAMBUESA</option>
+                                            <option value="">DURAZNO</option>
+                                            <option disabled value="">---ESPECIALES---</option>
+                                            <option value="">VANEGATO DE FRUTAS TROPICALES</option>
+                                            <option value="">MENTA GRANIZADA</option>
+                                            <option value="">MANTECOL</option>
+                                            <option value="">MARROC</option>
+                                            <option value="">TIRAMISÚ</option>
+                                            <option value="">MASCARPONE</option>
+                                            <option value="">FLAN AL CARAMELO</option>
+                                            <option value="">COCO CON DULCE DE LECHE</option>
+                                            <option value="">TRAMONTANA</option>
+                                            <option value="">COOKIES</option>
+                                            <option disabled value="">---POSTRES---</option>
+                                            <option value="">BOMBÓN ESCOCÉS</option>
+                                            <option value="">ALMENDRADO</option>
+                                            <option value="">TIRAMISÚ</option>
+                                            <option value="">TRICOLOR</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <!-- Aclaraciones -->
+            
+                                    <div class="col-sm-6 mb-2 d-flex flex-column">
+                                        <label for="inputFormaPago" class="form-label">¿TENÉS ALGUNA ACLARACIÓN?</label>
+                                        <textarea class="" name="" id="inputFormaPago" cols="1" rows="1" placeholder="Escriba su aclaración"></textarea>
+                                    </div>
+            
+                                    <!-- Forma de Pago -->
+            
+                                    <div class="col-sm-12 mb-2">
+                                        <label for="inputFormaPago" class="form-label">FORMA DE PAGO</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="inputFormaPago" disabled checked>
+                                            <label class="form-check-label" for="inputFormaPago">Efectivo</label>
+                                        </div>
+                                    </div>
+            
+                                    <!-- Botones -->
+                                    
+                                    <div class="col-sm-6 mb-2 d-flex justify-content-center gap-3 w-auto flex-wrap">
+                                        <button class="btn btn-outline-danger" type="reset">Borrar Pedido</button>
+                                        <!-- Button trigger modal -->
+                                        <button type="submit" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Realizar Pedido</button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Confirmación de Pedido</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="card">
+                                                            <div class="card-body">Su pedido ha sido realizado con éxito.</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+                                                        <a href="index.html" type="button" class="btn btn-outline-success">Aceptar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ubicacion">
+            <div class="container-sm mt-5 mb-3">
+                <p class="text-center fs-1"><i class="fas fa-map-marker-alt"></i>  Ubicación</p>
+                <div class="container-fluid d-flex justify-content-center align-items-center w-auto flex-wrap gap-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d97421.83414175214!2d-58.184145900732425!3d-26.177541373703036!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sar!4v1643496847663!5m2!1ses!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <nav class="navbar bg-light mt-5 justify-content-end">
+            <div class="container justify-content-center">
+                <span class="navbar-text text-center mt-2">
+                    ©2022 Página desarrollada por Marcos Sebastián Martínez
+                </span>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

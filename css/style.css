@@ -1,0 +1,16 @@
+#carouselExampleCaptions img {
+    height: 90vh;
+}
+
+.card img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.servicios {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
